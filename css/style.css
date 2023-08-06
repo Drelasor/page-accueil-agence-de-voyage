@@ -3,8 +3,16 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
-    --Typo : Raleway, sans-serif;
+    --typo-properties: Raleway, sans-serif;
+    --typo-style: normal;
+    --typo-line-height: normal;
 }
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: var(--typo-properties);
+    font-style: var(--typo-style);
+    line-height: var(--typo-line-height);
+  }
 
 .fa-solid {
     color: var(--main-color);
@@ -36,11 +44,8 @@ header{
 .menu a{
     color: #000000;
     text-align: center;
-    font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin : 0 35px;
 
 }
@@ -213,24 +218,46 @@ body {
     font-size: 22px;
 }
 
+.hebergements {
+    width: 65%;
+    padding: 30px;
+}
+
 .hebergements-row {
     display: flex;
-    align-items: flex-start;
-    align-self: stretch;
+    justify-content: space-between;
+    margin: 30px 0;
     }
+
 
 .hebergements .card{
     display: flex;
-    padding-bottom: 0px;
     flex-direction: column;
-    align-items: center;
-    flex: 1 0 0;
-    border-radius: 20px;
     background: #FFF;
-
-/* Shadow/Card */
-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    width: 234px;
+    height: 192px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    padding-bottom: 15px;
 }
+.hebergements .card img{
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+}
+.hebergements .card-content{
+    padding-left: 15px;
+}
+.hebergements .card-text{
+    margin-bottom: 8px;
+}
+.hebergements .card-title{
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+
+.hebergements .card-subtitle{
+    margin: 0;
+}
+
 
 .card {
     background-color: white;
@@ -269,9 +296,6 @@ box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
 /****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
 
 /****** Populaires ***********/
 .populaires {
