@@ -45,7 +45,6 @@ header{
     color: #000000;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
     margin : 0 35px;
 
 }
@@ -76,22 +75,16 @@ body {
 .first-headline{
     align-self: stretch;    
     color: #000;
-    font-family: Raleway;
     font-size: 22px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin : 0 0 10px 0;
 }
 
 .second-headline{
     align-self: stretch;
     color: #000;
-    font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin: 0;
 }
 .search-bar {
@@ -107,11 +100,8 @@ body {
 
 .button-text {
     color: white;
-    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .localisation-grey{
@@ -131,11 +121,8 @@ body {
 .search-text{
     color: #000;
     text-align: center;
-    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin:  23px 23px;
 }
 .blue-search {
@@ -157,11 +144,8 @@ body {
 }
 .filter-text{
     color: #000;
-    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .filter-button{
@@ -180,11 +164,8 @@ body {
 
 .filter-text-button{
     color:  #000;
-    font-family: Raleway;
     font-size: 17px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-left: 10px;
 }
 .info-bar{
@@ -204,11 +185,8 @@ body {
 }
 .info-bar-text{
     color: #000;
-    font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 
 
 }
