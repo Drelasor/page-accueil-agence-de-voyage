@@ -20,8 +20,8 @@
                 <img src="./images/logo/Booki.png" alt="logo"/>
             </div>
             <div class = "menu">
-                <a>Hebergements</a>
-                <a>Activités</a>
+                <a id="hbg" href="#hebergements">Hebergements</a>
+                <a id="act" href="#activities">Activités</a>
             </div>
         </header>
         <main>
@@ -34,7 +34,7 @@
                     <div class="localisation-grey">
                         <i id="localisation-icon" class="fa-solid fa-location-dot fa-lg"></i>
                     </div>
-                    <div class="search-text">Marseille, France</div>
+                    <input type="text" name="search" placeholder="Marseille,France" class="search-text"></input>
                     <button class = "blue-search">
                         <div class = "button-text">Rechercher</div>
                     </button>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements">
                     <div class="offers">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -236,7 +236,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activities">
+            <div id="activities">
              <h2>Activités à Marseille</h2>
                 <div class="activities-cards">
                     <article class="card">
