@@ -8,10 +8,12 @@
     --typo-line-height: normal;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, a {
+body{
     font-family: var(--typo-properties);
     font-style: var(--typo-style);
-    line-height: var(--typo-line-height);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
   }
 
 .fa-solid {
@@ -21,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: px 0 0 40px 0;
+    margin: 0 0 10px 0;
 }
 
 .logo {
@@ -51,12 +53,7 @@ header{
     padding-top: 10px ;
     border-top: 2px solid var(--main-color);
     color: var(--main-color);
-}
-
-body {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
+    cursor: pointer;
 }
 
 .main-container {
@@ -78,7 +75,6 @@ body {
 }
 
 .first-headline{
-    align-self: stretch;    
     color: #000;
     font-size: 22px;
     font-weight: 700;
@@ -86,7 +82,6 @@ body {
 }
 
 .second-headline{
-    align-self: stretch;
     color: #000;
     font-size: 16px;
     font-weight: 400;
@@ -134,7 +129,6 @@ input[type="text"]::placeholder {
     color: black; 
 }
 
-
 .blue-search {
     display: flex;
     width:134px;
@@ -144,6 +138,7 @@ input[type="text"]::placeholder {
     border-radius: 0 15px 15px 0;
     border: 1px solid  #0065FC;
     background-color:  #0065FC;
+    cursor: pointer;
 }
 
 .filter-bar{
@@ -174,6 +169,7 @@ input[type="text"]::placeholder {
 }
 .filter-button:hover{
     background: #DEEBFF;
+    cursor: pointer;
 }
 
 .filter-text-button{
@@ -378,8 +374,11 @@ footer{
     background:#F2F2F2;
 }
 
-footer h3, footer p {
-    width: 180px;
+footer a {
+ display: block;
+ margin-bottom: 15px;
+ cursor: pointer;
+
 }
 
 .footer-item{
@@ -463,15 +462,14 @@ footer h3, footer p {
         display: none;
     }
 
-
     .main-container{
         padding: 0;
     }
+
     .menu {
         display: flex;
         padding: 0;
         align-items: center;
-        align-self: stretch;
     }
     .menu a {
         border-top: none;
@@ -485,6 +483,7 @@ footer h3, footer p {
     .menu a:hover{
         border-bottom: 2px solid var(--main-color);
         border-top: initial;
+        cursor: pointer;
     }
 
     .search-text{
