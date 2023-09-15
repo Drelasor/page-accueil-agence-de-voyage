@@ -16,6 +16,10 @@ body{
     justify-content: center;
   }
 
+  article{
+    cursor: pointer;
+  }
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -375,9 +379,11 @@ footer{
 }
 
 footer a {
- display: block;
- margin-bottom: 15px;
- cursor: pointer;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 
 }
 
